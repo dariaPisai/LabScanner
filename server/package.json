@@ -1,0 +1,20 @@
+{
+    "name": "labscanner-server",
+    "version": "1.0.0",
+    "description": "LabScanner backend API",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js",
+        "seed": "node src/db/seed.js"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "better-sqlite3": "^11.7.0",
+        "cors": "^2.8.5",
+        "express": "^4.21.0",
+        "express-validator": "^7.2.0",
+        "jsonwebtoken": "^9.0.2",
+        "uuid": "^11.0.0"
+    }
+}
